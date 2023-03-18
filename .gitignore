@@ -10,12 +10,8 @@ startCaddy.sh
 stop.sh
 public/*
 resources/*
-static/imgs/ali-pay.png
-static/imgs/wechat-pay.png
-static/static/img/showcase.png
-archetypes/default.md
-archetypes/page.md
-archetypes/posts.md
+static/*
+archetypes/*
 content/archives/_index.md
 content/postBak/emoji-support.md
 content/postBak/external-link.md
