@@ -23,5 +23,4 @@ content/postBak/hello-world.md
 content/postBak/markdown-syntax.md
 content/postBak/syntax-highlighting.md
 content/postBak/table-of-content.md
-themes/hugo-theme-next
-themes/hugo-tranquilpeak-theme
+themes/*
