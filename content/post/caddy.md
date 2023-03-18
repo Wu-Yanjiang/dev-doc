@@ -18,8 +18,8 @@ keywords:
 # Caddy
 Caddy is a powerful, extensible platform to serve your sites, services, and apps, written in Go. If you're new to Caddy, the way you serve the Web is about to change.
 
-可以用来做什么？
-答：文件服务器、web服务器、反向代理服务器、网关、代理服务器...
+可以用来做什么？  
+答：文件服务器、web服务器、反向代理服务器、网关、代理服务器...  
 简而言之，多快好省，人懒不多BB直接上Caddy，性能好，各种花活都能整，还能自动免费帮你续签Let's Encrypt的Https证书。
 
 ```bash
