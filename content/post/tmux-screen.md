@@ -155,7 +155,6 @@ ctrl+b $
 | Ctrl+b | Ctrl+方向键 | 以1个单元格为单位调整当前面板边缘（Mac下被系统快捷键覆盖）     |
 | Ctrl+b | t           | 显示时钟                                                       |
 
-
 # 参考资料
 
 - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/2019/10/tmux.html)
