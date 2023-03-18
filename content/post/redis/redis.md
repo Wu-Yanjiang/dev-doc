@@ -1,6 +1,6 @@
 ---
-title: "Juc"
-date: 2023-03-18T22:40:10+08:00
+title: "Redis"
+date: 2023-03-18T22:56:32+08:00
 categories:
 - category
 - subcategory
@@ -13,6 +13,3 @@ keywords:
 ---
 
 <!--more-->
-
-# 
-
