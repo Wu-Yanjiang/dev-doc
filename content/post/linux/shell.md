@@ -31,14 +31,13 @@ sed编辑器可执行的操作：
 
 使用
 ```bash
-
 sed options script file
 
 ```
 
 options参数允许修改sed命令的行为，一下为可选项
 |选项		|描述|
-|:-------------:|:--:|
+|:--------------|:--:|
 |-e commands	|在处理输入时，加入额外的sed命令|
 |-f file	|在处理输入时，将file中的指定命令添加到已有的命令中|
 |-n		|不产生命令输出|
@@ -51,7 +50,6 @@ script参数指定应用于流数据中的单个命令。
 ```bash
 $ echo "This is a test" | sed 's/test/big test/'
 This is a big test
-$
 ```
 使用替换（s）命令，用斜线间指定的第二个字符串替换第一个字符串。
 
@@ -61,21 +59,18 @@ The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
-$
 
 $ sed 's/dog/cat/' data1.txt
 The quick brown fox jumps over the lazy cat.
 The quick brown fox jumps over the lazy cat.
 The quick brown fox jumps over the lazy cat.
 The quick brown fox jumps over the lazy cat.
-$
 
 $ cat data1.txt
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
 The quick brown fox jumps over the lazy dog.
-$
 ```
 
 sed编辑器并不会修改文本文件的数据，他只处理数据并将其发送到STDOUT。如果，要修改数据，可以用重定向到原文本文件。  
@@ -91,7 +86,6 @@ The quick red fox jumps over the lazy cat.
 The quick red fox jumps over the lazy cat.
 The quick red fox jumps over the lazy cat.
 The quick red fox jumps over the lazy cat.
-$
 ```
 
 命令间以分号（;）分割，并且命令末尾和分号之间不能出现空格。  
@@ -108,7 +102,6 @@ The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
-$
 ```
 
 切记要在闭合单引号所在行结束命令。  
@@ -126,7 +119,6 @@ The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
 The quick green toad jumps over the lazy cat.
-$
 ```
 为了避免和shell脚本弄混，这里常以.sed作为后缀名称，以示区分。  
 
