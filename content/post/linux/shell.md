@@ -45,7 +45,7 @@ options参数允许修改sed命令的行为，一下为可选项
 script参数指定应用于流数据中的单个命令。
 
 
-## 在命令行中定义编辑器命令
+## 在命令行中定义命令
 
 ```bash
 $ echo "This is a test" | sed 's/test/big test/'
@@ -76,7 +76,7 @@ The quick brown fox jumps over the lazy dog.
 sed编辑器并不会修改文本文件的数据，他只处理数据并将其发送到STDOUT。如果，要修改数据，可以用重定向到原文本文件。  
 
 
-## 命令行中使用多个编辑器命令
+## 命令行中使用多个命令
 
 -e选项
 
@@ -106,7 +106,7 @@ The quick green toad jumps over the lazy cat.
 
 切记要在闭合单引号所在行结束命令。  
 
-## 从文件中读取编辑器命令
+## 从文件中读命令
 
 ```bash
 $ cat script1.sed
@@ -125,4 +125,5 @@ The quick green toad jumps over the lazy cat.
 
 # gawk命令
 
-
+# 参考文献
+- [Linux命令行与shell脚本编程大全](https://book.douban.com/subject/26854226/)
